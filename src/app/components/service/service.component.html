@@ -1,0 +1,395 @@
+<section class="flex flex-col items-center justify-center pt-36" id="service">
+    <h2
+        class="uppercase border-b-red-600 border-b-4 text-5xl font-semibold max-sm:text-3xl sm:text-3xl"
+    >
+        servicios
+    </h2>
+
+    <section
+        class="flex flex-col gap-5 w-full p-20 items-center justify-center"
+    >
+        <div
+            class="flex flex-row items-center justify-center w-full text-center p-10 rounded-lg"
+        >
+            <div
+                (click)="openClient()"
+                class="flex flex-col items-center justify-center fill-red-600 m-5 gap-3 text-xl text-red-600 font-medium cursor-pointer hover:fill-red-400 hover:text-red-400"
+            >
+                <svg
+                    width="30px"
+                    height="30px"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        d="M20.992,9.98A8.991,8.991,0,0,0,3.01,9.932a13.95,13.95,0,0,0,8.574,12.979A1,1,0,0,0,12,23a1.012,1.012,0,0,0,.419-.09A13.948,13.948,0,0,0,20.992,9.98ZM12,20.9A11.713,11.713,0,0,1,5.008,10a6.992,6.992,0,1,1,13.984,0c0,.021,0,.045,0,.065A11.7,11.7,0,0,1,12,20.9ZM12,6a4,4,0,1,0,4,4A4,4,0,0,0,12,6Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,12,12Z"
+                    />
+                </svg>
+
+                <h3>Estudio del cliente y mercado</h3>
+            </div>
+
+            <div
+                (click)="openObject()"
+                class="flex flex-col items-center justify-center fill-red-600 m-5 gap-3 text-xl text-red-600 font-medium cursor-pointer hover:fill-red-400 hover:text-red-400"
+            >
+                <svg
+                    width="30px"
+                    height="30px"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        d="M21.71,20.29,18,16.61A9,9,0,1,0,16.61,18l3.68,3.68a1,1,0,0,0,1.42,0A1,1,0,0,0,21.71,20.29ZM11,18a7,7,0,1,1,7-7A7,7,0,0,1,11,18Z"
+                    />
+                </svg>
+                <h3>identificacion de necesidades y objetivos</h3>
+            </div>
+
+            <div
+                (click)="openStrategy()"
+                class="flex flex-col items-center justify-center fill-red-600 m-5 gap-3 text-xl text-red-600 font-medium cursor-pointer hover:fill-red-400 hover:text-red-400"
+            >
+                <svg
+                    width="30px"
+                    height="30px"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        d="M21,12a1,1,0,0,0-1,1v6a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V5A1,1,0,0,1,5,4h6a1,1,0,0,0,0-2H5A3,3,0,0,0,2,5V19a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V13A1,1,0,0,0,21,12ZM6,12.76V17a1,1,0,0,0,1,1h4.24a1,1,0,0,0,.71-.29l6.92-6.93h0L21.71,8a1,1,0,0,0,0-1.42L17.47,2.29a1,1,0,0,0-1.42,0L13.23,5.12h0L6.29,12.05A1,1,0,0,0,6,12.76ZM16.76,4.41l2.83,2.83L18.17,8.66,15.34,5.83ZM8,13.17l5.93-5.93,2.83,2.83L10.83,16H8Z"
+                    />
+                </svg>
+                <h3>Estrategia</h3>
+            </div>
+
+            <div
+                (click)="openProfile()"
+                class="flex flex-col items-center justify-center fill-red-600 m-5 gap-3 text-xl text-red-600 font-medium cursor-pointer hover:fill-red-400 hover:text-red-400"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30px"
+                    height="30px"
+                    viewBox="0 0 52 52"
+                    enable-background="new 0 0 52 52"
+                    xml:space="preserve"
+                >
+                    <g>
+                        <path
+                            d="M42,22.3c-2.8-1.1-3.2-2.2-3.2-3.3s0.8-2.2,1.8-3c1.7-1.4,2.6-3.5,2.6-5.8c0-4.4-2.9-8.2-8-8.2
+		c-4.7,0-7.5,3.2-7.9,7.1c0,0.4,0.2,0.7,0.5,0.9c3.8,2.4,6.1,6.6,6.1,11.7c0,3.8-1.5,7.2-4.2,9.6c-0.2,0.2-0.2,0.6,0,0.8
+		c0.7,0.5,2.3,1.2,3.3,1.7c0.3,0.1,0.5,0.2,0.8,0.2h12.1c2.3,0,4.1-1.9,4.1-4v-0.6C50,25.9,46.2,24,42,22.3z"
+                        />
+                        <path
+                            d="M28.6,36.2c-3.4-1.4-3.9-2.6-3.9-3.9c0-1.3,1-2.6,2.1-3.6c2-1.7,3.1-4.1,3.1-6.9c0-5.2-3.4-9.7-9.6-9.7
+		c-6.1,0-9.6,4.5-9.6,9.7c0,2.8,1.1,5.2,3.1,6.9c1.1,1,2.1,2.3,2.1,3.6c0,1.3-0.5,2.6-4,3.9c-5,2-9.9,4.3-9.9,8.5V45v1
+		c0,2.2,1.8,4,4.1,4h27.7c2.3,0,4.2-1.8,4.2-4v-1v-0.4C38,40.5,33.6,38.2,28.6,36.2z"
+                        />
+                    </g>
+                </svg>
+                <h3>seleccion de perfiles y accciones a ejecutar</h3>
+            </div>
+
+            <div
+                (click)="openPlaning()"
+                class="flex flex-col items-center justify-center fill-red-600 m-5 gap-3 text-xl text-red-600 font-medium cursor-pointer hover:fill-red-400 hover:text-red-400"
+            >
+                <svg
+                    width="30px"
+                    height="30px"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <title>file_type_light_config</title>
+                    <path
+                        d="M23.265,24.381l.9-.894c4.164.136,4.228-.01,4.411-.438l1.144-2.785L29.805,20l-.093-.231c-.049-.122-.2-.486-2.8-2.965V15.5c3-2.89,2.936-3.038,2.765-3.461L28.538,9.225c-.171-.422-.236-.587-4.37-.474l-.9-.93a20.166,20.166,0,0,0-.141-4.106l-.116-.263-2.974-1.3c-.438-.2-.592-.272-3.4,2.786l-1.262-.019c-2.891-3.086-3.028-3.03-3.461-2.855L9.149,3.182c-.433.175-.586.237-.418,4.437l-.893.89c-4.162-.136-4.226.012-4.407.438L2.285,11.733,2.195,12l.094.232c.049.12.194.48,2.8,2.962l0,1.3c-3,2.89-2.935,3.038-2.763,3.462l1.138,2.817c.174.431.236.584,4.369.476l.9.935a20.243,20.243,0,0,0,.137,4.1l.116.265,2.993,1.308c.435.182.586.247,3.386-2.8l1.262.016c2.895,3.09,3.043,3.03,3.466,2.859l2.759-1.115C23.288,28.644,23.44,28.583,23.265,24.381ZM11.407,17.857a4.957,4.957,0,1,1,6.488,2.824A5.014,5.014,0,0,1,11.407,17.857Z"
+                    />
+                </svg>
+
+                <h3>Ejecucion del planning y seguimiento</h3>
+            </div>
+
+            <div
+                (click)="openSupport()"
+                class="flex flex-col items-center justify-center fill-red-600 m-5 gap-3 text-xl text-red-600 font-medium cursor-pointer hover:fill-red-400 hover:text-red-400"
+            >
+                <svg
+                    width="30px"
+                    height="30px"
+                    viewBox="0 0 16 16"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path d="M15 13V14H1.5L1 13.5V0H2V13H15Z" />
+                    <path
+                        d="M13 3.20714L7.85353 8.35359H7.14642L5.49998 6.70714L1.85353 10.3536L1.14642 9.64648L5.14642 5.64648H5.85353L7.49998 7.29293L12.6464 2.14648H13.3535L15.3535 4.14648L14.6464 4.85359L13 3.20714Z"
+                    />
+                </svg>
+                <h3>Soporte</h3>
+            </div>
+        </div>
+
+        <div class="grid place-content-center w-[40rem]">
+            <section>
+                <div
+                    *ngIf="this.viewInfoClient"
+                    class="flex flex-col w-[35rem] items-center justify-center bg-neutral-300 p-10 rounded-xl"
+                >
+                    <div
+                        class="flex flex-col items-center justify-center w-full fill-red-600 m-5 gap-3 text-3xl text-red-600 font-medium"
+                    >
+                        <svg
+                            width="40px"
+                            height="40px"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M20.992,9.98A8.991,8.991,0,0,0,3.01,9.932a13.95,13.95,0,0,0,8.574,12.979A1,1,0,0,0,12,23a1.012,1.012,0,0,0,.419-.09A13.948,13.948,0,0,0,20.992,9.98ZM12,20.9A11.713,11.713,0,0,1,5.008,10a6.992,6.992,0,1,1,13.984,0c0,.021,0,.045,0,.065A11.7,11.7,0,0,1,12,20.9ZM12,6a4,4,0,1,0,4,4A4,4,0,0,0,12,6Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,12,12Z"
+                            />
+                        </svg>
+
+                        <h3>Estudio del cliente y mercado</h3>
+                    </div>
+
+                    <p
+                        class="text-xl font-medium text-left text-zinc-600 whitespace-pre-line"
+                    >
+                        En Midgard DC el punto de inicio es conocer bien tanto
+                        las ventajas como los inconvenientes que puede encontrar
+                        la campaña y saber explotar al máximo las oportunidades
+                        que puedan presentar. Somos expertos en la industria del
+                        videojuego, pero en el último año hemos expandido
+                        nuestro alcance a otras áreas como el cine, la
+                        televisión, la música, marcas generales de consumo y
+                        tecnología e incluso deportes electrónicos.Conocer las
+                        necesidades de nuestro cliente y el contexto en el que
+                        se lanza el producto, es vital para la creación de una
+                        estrategia sólida que alcance los objetivos establecidos
+                        y sorprenda al consumidor, llegando así al público
+                        objetivo, marcando la diferencia.
+                    </p>
+                </div>
+
+                <div
+                    *ngIf="this.viewInfoObject"
+                    class="flex flex-col w-[35rem] items-center justify-center bg-neutral-300 p-10 rounded-xl"
+                >
+                    <div
+                        class="flex flex-col items-center justify-center w-full fill-red-600 m-5 gap-3 text-3xl text-red-600 font-medium"
+                    >
+                        <svg
+                            width="40px"
+                            height="40px"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M21.71,20.29,18,16.61A9,9,0,1,0,16.61,18l3.68,3.68a1,1,0,0,0,1.42,0A1,1,0,0,0,21.71,20.29ZM11,18a7,7,0,1,1,7-7A7,7,0,0,1,11,18Z"
+                            />
+                        </svg>
+                        <h3>Identificacion de necesidades y objetivos</h3>
+                    </div>
+
+                    <p
+                        class="text-xl font-medium text-left text-zinc-600 whitespace-pre-line"
+                    >
+                        En cada una de nuestras campañas, nos guiamos por las
+                        necesidades del cliente en ese preciso momento y los
+                        objetivos que se quieren alcanzar.<span
+                            >Generalmente, nos gusta trabajar con herramientas
+                            de tracking, para poder dar así un mejor reporte de
+                            resultados, y que el cliente pueda apreciar la
+                            cantidad de público al que llegamos y convencemos
+                            para probar el producto y/o disfrutar del mismo; sea
+                            un videojuego, una película, un producto televisivo
+                            y/o musical, una herramienta, una nueva tecnología o
+                            una nueva tendencia de consumo.
+                        </span>
+                    </p>
+                </div>
+
+                <div
+                    *ngIf="this.viewInfoStrategy"
+                    class="flex flex-col w-[35rem] items-center justify-center bg-neutral-300 p-10 rounded-xl"
+                >
+                    <div
+                        class="flex flex-col items-center justify-center w-full fill-red-600 m-5 gap-3 text-3xl text-red-600 font-medium"
+                    >
+                        <svg
+                            width="40px"
+                            height="40px"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M21,12a1,1,0,0,0-1,1v6a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V5A1,1,0,0,1,5,4h6a1,1,0,0,0,0-2H5A3,3,0,0,0,2,5V19a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V13A1,1,0,0,0,21,12ZM6,12.76V17a1,1,0,0,0,1,1h4.24a1,1,0,0,0,.71-.29l6.92-6.93h0L21.71,8a1,1,0,0,0,0-1.42L17.47,2.29a1,1,0,0,0-1.42,0L13.23,5.12h0L6.29,12.05A1,1,0,0,0,6,12.76ZM16.76,4.41l2.83,2.83L18.17,8.66,15.34,5.83ZM8,13.17l5.93-5.93,2.83,2.83L10.83,16H8Z"
+                            />
+                        </svg>
+                        <h3>Estrategia</h3>
+                    </div>
+
+                    <p
+                        class="text-xl font-medium text-left text-zinc-600 whitespace-pre-line"
+                    >
+                        Una vez establecidas las necesidades y objetivos del
+                        cliente, y teniendo un amplio conocimiento del mercado,
+                        en Midgard nos encanta hacer sesiones de brainstorming
+                        para desarrollar una estrategia, dando lugar a ideas
+                        creativas y originales.<span
+                            >Estos planteamientos se plantean posteriormente al
+                            cliente, junto a la campaña en la que detallamos el
+                            plan, los perfiles y las diferentes fases. Una vez
+                            recibida su aprobación, pasamos a incluir el
+                            calendario y el presupuesto específico de ejecución.
+                        </span>
+                    </p>
+                </div>
+
+                <div
+                    *ngIf="this.viewInfoProfile"
+                    class="flex flex-col w-[40rem] items-center justify-center bg-neutral-300 p-10 rounded-xl"
+                >
+                    <div
+                        class="flex flex-col items-center justify-center w-full fill-red-600 m-5 gap-3 text-3xl text-red-600 font-medium"
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30px"
+                            height="30px"
+                            viewBox="0 0 52 52"
+                            enable-background="new 0 0 52 52"
+                            xml:space="preserve"
+                        >
+                            <g>
+                                <path
+                                    d="M42,22.3c-2.8-1.1-3.2-2.2-3.2-3.3s0.8-2.2,1.8-3c1.7-1.4,2.6-3.5,2.6-5.8c0-4.4-2.9-8.2-8-8.2
+		c-4.7,0-7.5,3.2-7.9,7.1c0,0.4,0.2,0.7,0.5,0.9c3.8,2.4,6.1,6.6,6.1,11.7c0,3.8-1.5,7.2-4.2,9.6c-0.2,0.2-0.2,0.6,0,0.8
+		c0.7,0.5,2.3,1.2,3.3,1.7c0.3,0.1,0.5,0.2,0.8,0.2h12.1c2.3,0,4.1-1.9,4.1-4v-0.6C50,25.9,46.2,24,42,22.3z"
+                                />
+                                <path
+                                    d="M28.6,36.2c-3.4-1.4-3.9-2.6-3.9-3.9c0-1.3,1-2.6,2.1-3.6c2-1.7,3.1-4.1,3.1-6.9c0-5.2-3.4-9.7-9.6-9.7
+		c-6.1,0-9.6,4.5-9.6,9.7c0,2.8,1.1,5.2,3.1,6.9c1.1,1,2.1,2.3,2.1,3.6c0,1.3-0.5,2.6-4,3.9c-5,2-9.9,4.3-9.9,8.5V45v1
+		c0,2.2,1.8,4,4.1,4h27.7c2.3,0,4.2-1.8,4.2-4v-1v-0.4C38,40.5,33.6,38.2,28.6,36.2z"
+                                />
+                            </g>
+                        </svg>
+                        <h3>Seleccion de perfiles y accciones a ejecutar</h3>
+                    </div>
+
+                    <p
+                        class="text-xl font-medium text-left text-zinc-600 whitespace-pre-line"
+                    >
+                        A la hora de escoger los perfiles de influencers
+                        específicos para cada campaña, estudiamos minuciosamente
+                        el producto y el target al que queremos llegar.
+                    </p>
+
+                    <p
+                        class="text-xl font-medium text-left text-zinc-600 whitespace-pre-line"
+                    >
+                        A partir de ahí, definimos las actividades a ejecutar
+                        haciendo especial hincapié en nuestro valor diferencial
+                        como agencia, ofreciendo diversas acciones a la hora de
+                        promocionar un producto, como por ejemplo: Eventos, Meet
+                        & Greets, Circuitos de obstáculos tematizados, Retos,
+                        Series de vídeos y posts en redes sociales, Concursos
+                        con elementos personalizados exclusivos, Recompensas
+                        para los fans, Branded content, Product placement,
+                        Menciones e inserción de productos en contenidos de
+                        calidad, etc.
+                    </p>
+
+                    <p
+                        class="text-xl font-medium text-left text-zinc-600 whitespace-pre-line"
+                    >
+                        También disponemos de la posibilidad de realizar
+                        producción propia de contenidos, como streamings,
+                        grabaciones y cortos de alta calidad o anuncios, entre
+                        otros.
+                    </p>
+                </div>
+
+                <div
+                    *ngIf="this.viewInfoPlaning"
+                    class="flex flex-col w-[35rem] items-center justify-center bg-neutral-300 p-10 rounded-xl"
+                >
+                    <div
+                        class="flex flex-col items-center justify-center w-full fill-red-600 m-5 gap-3 text-3xl text-red-600 font-medium"
+                    >
+                        <svg
+                            width="40px"
+                            height="40px"
+                            viewBox="0 0 32 32"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <title>file_type_light_config</title>
+                            <path
+                                d="M23.265,24.381l.9-.894c4.164.136,4.228-.01,4.411-.438l1.144-2.785L29.805,20l-.093-.231c-.049-.122-.2-.486-2.8-2.965V15.5c3-2.89,2.936-3.038,2.765-3.461L28.538,9.225c-.171-.422-.236-.587-4.37-.474l-.9-.93a20.166,20.166,0,0,0-.141-4.106l-.116-.263-2.974-1.3c-.438-.2-.592-.272-3.4,2.786l-1.262-.019c-2.891-3.086-3.028-3.03-3.461-2.855L9.149,3.182c-.433.175-.586.237-.418,4.437l-.893.89c-4.162-.136-4.226.012-4.407.438L2.285,11.733,2.195,12l.094.232c.049.12.194.48,2.8,2.962l0,1.3c-3,2.89-2.935,3.038-2.763,3.462l1.138,2.817c.174.431.236.584,4.369.476l.9.935a20.243,20.243,0,0,0,.137,4.1l.116.265,2.993,1.308c.435.182.586.247,3.386-2.8l1.262.016c2.895,3.09,3.043,3.03,3.466,2.859l2.759-1.115C23.288,28.644,23.44,28.583,23.265,24.381ZM11.407,17.857a4.957,4.957,0,1,1,6.488,2.824A5.014,5.014,0,0,1,11.407,17.857Z"
+                            />
+                        </svg>
+
+                        <h3>Ejecucion del planning y seguimiento</h3>
+                    </div>
+
+                    <p
+                        class="text-xl font-medium text-left text-zinc-600 whitespace-pre-line"
+                    >
+                        Una vez cerrados los términos del acuerdo, acciones
+                        pactadas y presupuesto se procede a la ejecución de las
+                        actividades en el calendario y un seguimiento de las
+                        mismas.
+                    </p>
+
+                    <p
+                        class="text-xl font-medium text-left text-zinc-600 whitespace-pre-line"
+                    >
+                        Como norma general, cuando se trata de contenidos de
+                        vídeo, estos se revisan 24h antes de su publicación para
+                        asegurar que los valores de la marca y el contenido a
+                        mostrar es acorde con la estrategia y la política del
+                        cliente. Siempre teniendo en cuenta, por supuesto, la
+                        creatividad y libertades de los influencers a la hora de
+                        llegar a la audiencia de la manera más eficiente posible
+                        con su estilo propio.
+                    </p>
+                </div>
+
+                <div
+                    *ngIf="this.viewInfoSupport"
+                    class="flex flex-col w-[35rem] items-center justify-center bg-neutral-300 p-10 rounded-xl"
+                >
+                    <div
+                        class="flex flex-col items-center justify-center w-full fill-red-600 m-5 gap-3 text-3xl text-red-600 font-medium"
+                    >
+                        <svg
+                            width="30px"
+                            height="30px"
+                            viewBox="0 0 16 16"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path d="M15 13V14H1.5L1 13.5V0H2V13H15Z" />
+                            <path
+                                d="M13 3.20714L7.85353 8.35359H7.14642L5.49998 6.70714L1.85353 10.3536L1.14642 9.64648L5.14642 5.64648H5.85353L7.49998 7.29293L12.6464 2.14648H13.3535L15.3535 4.14648L14.6464 4.85359L13 3.20714Z"
+                            />
+                        </svg>
+                        <h3>Soporte</h3>
+                    </div>
+
+                    <p
+                        class="text-xl font-medium text-left text-zinc-600 whitespace-pre-line"
+                    >
+                        Después de cada actividad, desde Midgard siempre
+                        realizamos un seguimiento de cómo han ido las acciones
+                        tanto a nivel cuantitativo como cualitativo. En este
+                        nivel cualitativo, evaluamos tanto las tendencias
+                        positivas como las negativas que se han generado dentro
+                        de la comunidad, y hacemos un resumen de las preguntas
+                        más frecuentes por parte de los fans, todo gracias a una
+                        potente herramienta con tecnología exclusiva en España
+                    </p>
+                </div>
+            </section>
+        </div>
+    </section>
+</section>

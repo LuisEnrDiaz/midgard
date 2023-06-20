@@ -1,0 +1,43 @@
+<app-header></app-header>
+
+<div
+    id="home"
+    class="w-full h-screen bg-black relative top-0 filter"
+    data-autoplay="true"
+    data-volume="mute"
+>
+    <video
+        loop
+        preload
+        [muted]="true"
+        autoplay
+        class="w-full h-full absolute overflow-hidden object-cover"
+        poster="../../assets/logos/midgard-logo-white.png"
+    >
+        <source src="../../assets/video/Intro-Web.mp4" type="video/mp4" />
+    </video>
+
+    <div class="w-full h-full relative grid place-content-center">
+        <img src="../../assets/logos/midgard-logo-white.png" alt="" />
+    </div>
+</div>
+
+<app-about-us></app-about-us>
+
+<app-exclusive></app-exclusive>
+
+<app-collaborators></app-collaborators>
+
+<app-hits></app-hits>
+
+<app-what-they-say [items]="carouselData"></app-what-they-say>
+
+<app-service></app-service>
+
+<app-indie></app-indie>
+
+<app-partners></app-partners>
+
+<app-contact></app-contact>
+
+<app-footer></app-footer>

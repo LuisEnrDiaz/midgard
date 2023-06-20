@@ -1,0 +1,110 @@
+<section class="flex flex-col items-center justify-center pt-36 w-full">
+    <h2
+        class="uppercase border-b-red-600 border-b-4 text-5xl font-semibold max-sm:text-3xl sm:text-3xl mb-10"
+    >
+        Lo que dicen de nosotoros
+    </h2>
+
+    <!-- <div class="w-full">
+        <ul>
+            <li class="overflow-hidden h-auto flex flex-row">
+                <ng-container *ngFor="let section of items">
+                    <div
+                        id="{{ section.id }}"
+                        class="flex flex-col items-center justify-center"
+                    >
+                        <img
+                            class="w-auto h-52 pb-5"
+                            src="{{ section.img }}"
+                            alt=""
+                        />
+                        <h2 class="text-2xl text-red-700 pb-5">
+                            - {{ section.name }} -
+                        </h2>
+                        <p class="text-lg text-gray-800">
+                            {{ section.content }}
+                        </p>
+                    </div>
+                </ng-container>
+            </li>
+        </ul>
+    </div> -->
+
+    <div class="w-full flex justify-center items-center relative m-10">
+        <div class="absolute w-[50%] m-auto flex justify-between">
+            <i
+                class="justify-between text-black cursor-pointer"
+                (click)="setBack()"
+                ><svg
+                    height="30px"
+                    width="30px"
+                    version="1.1"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 50 50"
+                    enable-background="new 0 0 50 50"
+                    xml:space="preserve"
+                    transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,0,0)"
+                >
+                    <path
+                        fill="#231F20"
+                        d="M15.563,40.836c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293l15-15
+	c0.391-0.391,0.391-1.023,0-1.414l-15-15c-0.391-0.391-1.023-0.391-1.414,0s-0.391,1.023,0,1.414l14.293,14.293L15.563,39.422
+	C15.172,39.813,15.172,40.446,15.563,40.836z"
+                    ></path></svg
+            ></i>
+            <i
+                class="justify-between text-black cursor-pointer"
+                (click)="setNext()"
+                ><svg
+                    height="30px"
+                    width="30px"
+                    version="1.1"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 50 50"
+                    enable-background="new 0 0 50 50"
+                    xml:space="preserve"
+                >
+                    <path
+                        fill="#231F20"
+                        d="M15.563,40.836c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293l15-15
+	c0.391-0.391,0.391-1.023,0-1.414l-15-15c-0.391-0.391-1.023-0.391-1.414,0s-0.391,1.023,0,1.414l14.293,14.293L15.563,39.422
+	C15.172,39.813,15.172,40.446,15.563,40.836z"
+                    ></path></svg
+            ></i>
+        </div>
+
+        <div class="text-center w-[50rem] self-stretch flex overflow-hidden">
+            <ng-container *ngFor="let section of items">
+                <div
+                    class="float-left flex items-center justify-center min-w-full h-full"
+                    [ngStyle]="{
+                        'margin-left': section.marginLeft + '%',
+                        transition: 'all 3s ease-in-out infinite'
+                    }"
+                >
+                    <div class="flex flex-col items-center justify-center">
+                        <img
+                            class="w-auto h-52 pb-5"
+                            src="{{ section.img }}"
+                            alt=""
+                        />
+                        <h2 class="text-2xl text-red-700 pb-5">
+                            - {{ section.name }} -
+                        </h2>
+                        <p class="text-lg text-gray-800">
+                            {{ section.content }}
+                        </p>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+
+        <div class="">
+            <div class=""></div>
+        </div>
+    </div>
+</section>
